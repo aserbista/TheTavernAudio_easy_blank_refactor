@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8f5808fb-c3ad-469d-888a-7d7212584d12}">
+		<property name="assetPath">
+			<value>one shoty/footsteps/wood/foot_wood_3.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.5625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cb4fa515-17a0-467a-b7d7-a8a452b9506d}</destination>
+		</relationship>
+	</object>
+</objects>

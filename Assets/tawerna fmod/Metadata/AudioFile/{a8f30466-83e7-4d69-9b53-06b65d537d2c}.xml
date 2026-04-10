@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a8f30466-83e7-4d69-9b53-06b65d537d2c}">
+		<property name="assetPath">
+			<value>one shoty/jump/stone/jump_stone_1.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.97666666666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cb4fa515-17a0-467a-b7d7-a8a452b9506d}</destination>
+		</relationship>
+	</object>
+</objects>
