@@ -101,7 +101,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 22946626063988465}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7557876397514782111}
   cacheVersion: 131859
-  cacheTime: 639114144229009250
+  cacheTime: 639120131281474466
   SerializableEventsDict:
   - key: event:/footsteps
     index: 0
@@ -278,10 +278,10 @@ MonoBehaviour:
   Path: Assets/tawerna fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639114144228989249
+  lastModified: 639120131281464414
   FileSizes:
   - Name: Desktop
-    Value: 8606368
+    Value: 8606688
   Exists: 1
 --- !u!114 &7557876397514782111
 MonoBehaviour:
@@ -298,7 +298,7 @@ MonoBehaviour:
   Path: Assets/tawerna fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639114144229009250
+  lastModified: 639120131281474466
   FileSizes:
   - Name: Desktop
     Value: 1112
