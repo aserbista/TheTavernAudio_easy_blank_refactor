@@ -2358,6 +2358,7 @@ GameObject:
   - component: {fileID: 613997989}
   - component: {fileID: 613997994}
   - component: {fileID: 613997995}
+  - component: {fileID: 613997996}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2581,11 +2582,11 @@ MonoBehaviour:
     Path: event:/footsteps
   jumpEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2091901533
+      Data2: 1091451473
+      Data3: -149427580
+      Data4: -670248611
+    Path: event:/jump
   landEvent:
     Guid:
       Data1: 0
@@ -2595,6 +2596,26 @@ MonoBehaviour:
     Path: 
   isGrounded: 1
   isJumping: 0
+--- !u!114 &613997996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d95e26b5cbbe94f93658dcf4aa33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapshotActivated: 0
+  outsideSnapshot:
+    Guid:
+      Data1: -1108813375
+      Data2: 1091204337
+      Data3: -1273306493
+      Data4: 1482045789
+    Path: snapshot:/outside
 --- !u!1 &650352861
 GameObject:
   m_ObjectHideFlags: 0

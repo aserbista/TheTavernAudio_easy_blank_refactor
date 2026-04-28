@@ -135,6 +135,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1312
+--- !u!114 &-3089819662590345526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/outside
+  Guid:
+    Data1: -1108813375
+    Data2: 1091204337
+    Data3: -1273306493
+    Data4: 1482045789
+  Banks:
+  - {fileID: 22946626063988465}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-2670770819544036623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,14 +268,14 @@ MonoBehaviour:
   - {fileID: -6060586953657611704}
   - {fileID: -2670770819544036623}
   - {fileID: -4801454962539642505}
-  - {fileID: 209221675178933099}
+  - {fileID: -3089819662590345526}
   EditorParameters: []
   MasterBanks:
   - {fileID: 22946626063988465}
   StringsBanks:
   - {fileID: 7557876397514782111}
   cacheVersion: 131859
-  cacheTime: 639126258098642222
+  cacheTime: 639129769340286676
   SerializableEventsDict:
   - key: event:/footsteps
     index: 0
@@ -264,7 +291,7 @@ MonoBehaviour:
     index: 5
   - key: event:/music
     index: 6
-  - key: snapshot:/ssss
+  - key: snapshot:/outside
     index: 7
 --- !u!114 &22946626063988465
 MonoBehaviour:
@@ -281,38 +308,11 @@ MonoBehaviour:
   Path: Assets/tawerna fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639126258098627195
+  lastModified: 639129769340271627
   FileSizes:
   - Name: Desktop
-    Value: 8607616
+    Value: 8608064
   Exists: 1
---- !u!114 &209221675178933099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/ssss
-  m_EditorClassIdentifier: 
-  Path: snapshot:/ssss
-  Guid:
-    Data1: 934012571
-    Data2: 1252167695
-    Data3: 1253627788
-    Data4: -160510303
-  Banks:
-  - {fileID: 22946626063988465}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &7557876397514782111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,10 +328,10 @@ MonoBehaviour:
   Path: Assets/tawerna fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639126258098642222
+  lastModified: 639129769340286676
   FileSizes:
   - Name: Desktop
-    Value: 1246
+    Value: 1250
   Exists: 1
 --- !u!114 &8278679696006990064
 MonoBehaviour:
