@@ -73,6 +73,7 @@
 	<object class="GroupTrack" id="{ee3f6a73-c905-4922-94b2-eeacc0bbfb98}">
 		<relationship name="modules">
 			<destination>{67d0bf25-88be-4a1b-aff3-fd6e69e73892}</destination>
+			<destination>{e4b4284a-5ebe-4ef1-b30d-d0050c9738f0}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{9b95875b-2477-477f-b598-1d7b51541d3f}</destination>
@@ -82,6 +83,7 @@
 		<relationship name="modules">
 			<destination>{b87d404f-568d-4d37-9459-07c2c556c4df}</destination>
 			<destination>{67d0bf25-88be-4a1b-aff3-fd6e69e73892}</destination>
+			<destination>{e4b4284a-5ebe-4ef1-b30d-d0050c9738f0}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{895df95c-5aab-4239-a76f-2ca20458312b}">
@@ -133,10 +135,27 @@
 	</object>
 	<object class="SingleSound" id="{67d0bf25-88be-4a1b-aff3-fd6e69e73892}">
 		<property name="length">
-			<value>1.375</value>
+			<value>0.54382064047362744</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{8fd4706f-bfa4-4465-ae50-bc5d3dab6cac}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{d2e33f54-777f-48a5-aec9-6ebda1715449}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{e4b4284a-5ebe-4ef1-b30d-d0050c9738f0}">
+		<property name="start">
+			<value>0.71999999999999997</value>
+		</property>
+		<property name="length">
+			<value>0.7273627556512382</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.6476372443487618</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{58606c6b-f8eb-4832-9d60-d9fe8396c940}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{d2e33f54-777f-48a5-aec9-6ebda1715449}</destination>
@@ -181,6 +200,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{2780b8a5-9de8-4140-8ff8-831314bbfc0e}" />
 	<object class="ParameterCondition" id="{8fd4706f-bfa4-4465-ae50-bc5d3dab6cac}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{3703b5a7-10f8-4579-a4d0-117594843bb9}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{58606c6b-f8eb-4832-9d60-d9fe8396c940}">
 		<property name="minimum">
 			<value>1</value>
 		</property>
