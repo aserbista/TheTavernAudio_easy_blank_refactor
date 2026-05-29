@@ -231,16 +231,25 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8da6888a-f864-4f7b-a57f-c4f9773f9d9a}">
+		<property name="startOffset">
+			<value>9.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{43f6f5f4-0b54-4462-99bc-193a78d51f77}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{ec139ab6-4fc3-4007-90e3-f4810a0b4901}">
+		<property name="startOffset">
+			<value>10.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{2c5aad4e-9c05-4a25-9281-8b48a818310e}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{5c860065-feec-4620-ae60-a22c1cb03c0a}">
+		<property name="startOffset">
+			<value>2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{8757b9c4-91a8-489e-b82a-a264f15e1cee}</destination>
 		</relationship>
